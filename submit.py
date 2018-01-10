@@ -16,12 +16,12 @@ print trainX.shape
 print trainYa.shape
 
 valX=np.load('./sound_data/sound_X_val.npy')
-valY=np.load('./sound_data/sound_Y_val.npy')
+valY=np.load('./sound_data/sound_y_val.npy')
 
 print valX.shape
 print valY.shape
 
-testX=np.load('./sound_data/sound_data')
+testX=np.load('./sound_data/sound_X_test.npy')
 
 
 arguments = sys.argv
