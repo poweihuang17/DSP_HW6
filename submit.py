@@ -24,6 +24,8 @@ print valY.shape
 testX=np.load('./sound_data/sound_data')
 
 
+arguments = sys.argv
+iterations = int(arguments[1])
 
 
 
