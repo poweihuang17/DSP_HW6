@@ -30,6 +30,8 @@ iterations = int(arguments[1])
 
 
 
+classes=1
+
 def trainNetConv(maxIter):
 
 	myModel = SoundCNN(classes)
